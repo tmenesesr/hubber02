@@ -24,7 +24,7 @@ def load_data(nrows):
 
 
 # Create a text element and let the reader know the data is loading.
-# st.write(st.cache.__sizeof__)
+st.write(st.cache.__sizeof__)
 data_load_state = st.text("Loading data...")
 # Load 10,000 rows of data into the dataframe.
 data = load_data(10000)
